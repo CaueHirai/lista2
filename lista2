@@ -1,0 +1,23 @@
+//Ex 1
+
+function concatenar(li1, li2){
+    return li1.concat(li2)
+}
+
+//Ex 2
+
+const numeros = [1,2,3,4,5,6,7,8,9,10]
+const parteNumeros = numeros.slice(3,7)
+console.log(parteNumeros)
+
+//Ex 3
+
+const frutas = ['Maçã', 'Banana', 'Laranja', 'Limão', 'Abacaxi']
+frutas.splice(2, 2, "Pêssego", "Kiwi");
+console.log(frutas)
+
+//Ex 4
+
+menuPrincipal = ['lasanha', 'feijoada', 'parmegiana', 'hamburguer']
+menuDeSobremesas = ['pudim', 'torta de coco']
+menuCompleto = menuPrincipal.concat(menuDeSobremesas)
